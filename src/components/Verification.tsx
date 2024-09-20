@@ -3,9 +3,7 @@ import { font } from '@/style/f'
 import React from 'react'
 import Card from './Card'
 
-type Props = {}
-
-function Verification({}: Props) {
+function Verification() {
 
     const CARDS = [
         {

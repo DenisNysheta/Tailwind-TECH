@@ -2,9 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 
-type Props = {}
-
-function Header({}: Props) {
+function Header() {
 
     const [active, setActive] = useState({burger: false, language: "Fr", menuUser: false})
     const STYLELANGUAGES = "cursor-pointer transition-colors duration-500 select-none ease text-[14px] leading-[16px] font-OpenSans"
