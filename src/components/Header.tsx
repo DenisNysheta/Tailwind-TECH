@@ -8,7 +8,7 @@ function Header() {
     const STYLELANGUAGES = "cursor-pointer transition-colors duration-500 select-none ease text-[14px] leading-[16px] font-OpenSans"
 
   return (
-    <header className='px-[24px] flex items-center justify-between h-[72px] shadow-[0px_1px_0px_0px_#F0F0F0]'>
+    <header className='px-[24px] select-none flex items-center justify-between h-[72px] shadow-[0px_1px_0px_0px_#F0F0F0]'>
         <h1 className='text-[18px] leading-[24px] text-[#20253F] font-[600]'>My Tipaw</h1>
         <div style={{top: active.burger ? "-15px" : "-160px"}} className='tablet:flex transition-all duration-[.2s] ease-linear max-[768px]:bg-[#2e4f4fa3] max-[768px]:absolute max-[768px]:p-[20px] rounded-[20px] top-[-15px] max-[768px]:flex max-[768px]:items-center max-[768px]:flex-col gap-[20px] items-center'>
             <div className='relative flex gap-[20px] after:top-[7px] font-[700] after:content-[""] after:absolute after:left-[48%] after:block after:h-[4px] after:w-[4px] after:rounded-[20px] after:bg-[#81DBEF]'>
