@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        "fullHd": "1920px",
+        "tablet": "768px"
+      },
+      fontFamily: {
+        "OpenSans": ["Open Sans", "sans-serif"]
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
