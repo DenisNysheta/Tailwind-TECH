@@ -38,8 +38,8 @@ function Verification() {
                 </div>
                 <div className='flex gap-[4px]'>
                     {
-                        [1,2,3,4,5].map(() => {
-                            return <div className='w-[64px] max-[450px]:w-[20%] h-[8px] bg-[#03C9A9] rounded-[2px]'></div>
+                        [1,2,3,4,5].map((index) => {
+                            return <div key={index} className='w-[64px] max-[450px]:w-[20%] h-[8px] bg-[#03C9A9] rounded-[2px]'></div>
                         })
                     }
                 </div>
@@ -47,7 +47,7 @@ function Verification() {
         </div>
         <div className='p-[40px]'>
             <ul className='flex flex-wrap justify-center gap-[32px]'>
-                {CARDS.map(card => <Card text={card.text} title={card.title}/>)}
+                {CARDS.map((card, index) => <Card key={index} text={card.text} title={card.title}/>)}
             </ul>   
         </div>
     </div>
