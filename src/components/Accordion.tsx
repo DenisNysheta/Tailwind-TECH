@@ -3,9 +3,7 @@ import { font } from '@/style/f'
 import Image from 'next/image'
 import React, { useState } from 'react'
 
-type Props = {}
-
-function Accordion({}: Props) {
+function Accordion() {
 
     const [active, setActive] = useState(false)
 

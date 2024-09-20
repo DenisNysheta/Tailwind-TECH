@@ -1,6 +1,5 @@
 "use client"
 import { font } from '@/style/f'
-import Image from 'next/image'
 import React from 'react'
 import Card from './Card'
 
